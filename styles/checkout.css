@@ -1,0 +1,17 @@
+#navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+  #movie{
+    text-align: center;
+    margin: auto;
+    width: 60%;
+  }
+  #movie>img{
+    width: 450px;
+  }
+  #user-detail{
+    display: flex;
+    margin: auto;
+    width: 26%;
+  }

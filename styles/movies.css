@@ -1,0 +1,30 @@
+#navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #movies{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    text-align: center;
+  }
+  .movie_tab{
+    border: 1px solid rebeccapurple;
+    padding: 10px;
+  }
+  .movie_tab>img{
+    width: 100%;;
+  }
+  #search_bar{
+    display: block;
+    margin: auto;
+    width: 60%;
+  }
+  #search{
+    margin: auto;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 20px;
+    text-transform: uppercase;
+  }
